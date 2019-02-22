@@ -10,3 +10,11 @@ def bacon():
 eggs = 'global'
 bacon()
 print(eggs) # prints 'global'
+
+'''
+When you run this program, it outputs the following:
+bacon local
+spam local
+bacon local
+global
+'''
